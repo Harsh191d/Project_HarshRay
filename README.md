@@ -1,2 +1,2 @@
-# Project_HarshRay
-My name is Harsh ray 
+I am Harsh P Ray 
+This file contains my portfolio and website<NGO>.
