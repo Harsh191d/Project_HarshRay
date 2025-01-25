@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Pranav Ray Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            padding-left: 250px;
+            box-sizing: border-box;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .contact-info {
+            text-align: right;
+            padding-right: 30px;
+        }
+        .contact-info a {
+            color: #64b5f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 180px;
+            height: 100%;
+            background-color: #1e1e1e;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+        }
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sidebar a:hover {
+            color: #00fff2;
+        }
+        section {
+            padding: 20px;
+            margin-left: 200px;
+            box-sizing: border-box;
+        }
+        h3 {
+            color: #00e1ff;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #333;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .contact {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .contact a {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #333;
+            color: #00d9ff;
+        }
+        button {
+            background-color: rgb(0, 0, 0);
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #165e08;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo2.jpg" alt="Logo">
+        <h1>Harsh Pranav Ray</h1>
+    </div>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:Harshrayidp@gmail.com">Harshrayidp@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/harsh-ray-560861333" target="_blank">Profile Here</a></p>
+        <p>GitHub: <a href="https://github.com/Harsh191d" target="_blank">Profile Here</a></p>
+    </div>
+</header>
+
+<div style="display: flex;">
+    <div class="sidebar">
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#photos">Photos</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Content Writing:</strong> Clear, engaging, and SEO-optimized writing, including SOPs, articles, and web copy.</li>
+                <li><strong>Python:</strong> Expertise in building automation tools, scripts, and web scraping.</li>
+                <li><strong>C:</strong> Proficient in low-level programming, algorithms, and memory management.</li>
+                <li><strong>HTML & CSS:</strong> Skilled in designing responsive websites with clean, semantic code.</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h3>Achievements</h3>
+            <ul>
+                <li><strong>Global Certifications:</strong> Completed certifications in Python, C, web development, and content writing from recognized platforms.</li>
+                <li><strong>Academic Milestones:</strong> Passed SSC and HSC from Bharatiya Vidya Bhavan’s School, laying the foundation for professional growth.</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <h4>Content Writing Projects</h4>
+            <div class="portfolio-item">
+                <strong>Blog Post:</strong> "The Impact of AI on Content Creation"<br>
+                <em>Overview:</em> Discusses how AI is revolutionizing content writing and marketing.<br>
+                <strong>Skills:</strong> Research, SEO writing, audience engagement.
+            </div>
+            <div class="portfolio-item">
+                <strong>SEO Article:</strong> "5 Tips for Boosting Your Website's SEO"<br>
+                <em>Overview:</em> A practical guide to improve website rankings through SEO strategies.<br>
+                <strong>Skills:</strong> SEO optimization, keyword research, content planning.
+            </div>
+            <div class="portfolio-item">
+                <strong>Product Description:</strong> "Maximize Your Productivity with [Product Name]"<br>
+                <em>Overview:</em> A compelling description for a landing page to attract customers.<br>
+                <strong>Skills:</strong> Creative writing, persuasive copywriting.
+            </div>
+
+            <h4>Coding Projects</h4>
+            <div class="portfolio-item">
+                <strong>Weather App (Python)</strong><br>
+                <em>Overview:</em> Python-based app fetching real-time weather information using an API.<br>
+                <strong>Skills:</strong> API integration, data handling, Python programming.<br>
+                <a href="https://github.com/">View on GitHub</a>
+            </div>
+            <div class="portfolio-item">
+                <strong>Personal Portfolio Website (HTML/CSS)</strong><br>
+                <em>Overview:</em> A responsive personal website showcasing skills, experience, and projects.<br>
+                <strong>Skills:</strong> HTML, CSS, responsive design.<br>
+                <a href="#">View Live Site</a>
+            </div>
+            <div class="portfolio-item">
+                <strong>Basic Calculator (C)</strong><br>
+                <em>Overview:</em> A simple command-line calculator for arithmetic operations.<br>
+                <strong>Skills:</strong> C programming, algorithm development.<br>
+            </div>
+        </section>
+
+        <section id="photos">
+            <h3>Photos</h3>
+            <p>Coming soon: A curated gallery of professional and personal photos that reflect my journey and interests.</p>
+            <img src="harsh.jpg" alt="photo1" width="250px" height="250px">
+            <img src="coding.jpg">
+            <img src="harsh2.jpg" alt="photo2" width="250" height="250">
+        </section>
+
+        <section class="contact" id="contact">
+            <h3>Contact Me</h3>
+            <p>I’m eager to apply my skills in content writing and coding to new and exciting projects. Feel free to reach out!</p>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <h4>Collaborations</h4>
+            <form>
+                <label for="project">Project Name:</label>
+                <input type="text" id="project" name="project" placeholder="Your Project Name" required>
+
+                <label for="details">Project Details:</label>
+                <textarea id="details" name="details" rows="5" placeholder="Describe Your Project" required></textarea>
+
+                <label for="budget">Budget (optional):</label>
+                <input type="text" id="budget" name="budget" placeholder="Budget (if any)">
+
+                <button type="submit">Submit Proposal</button>
+            </form>
+
+            <p>Email: <a href="mailto:Harshrayidp@gmail.com">Harshrayidp@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/harsh-ray-560861333" target="_blank">Profile Here</a></p>
+            <p>GitHub: <a href="https://github.com/Harsh191d" target="_blank">Profile Here</a></p>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Harsh Pranav Ray. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
